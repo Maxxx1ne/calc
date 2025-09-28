@@ -145,7 +145,8 @@ body {
 
 img {
     margin-top: 25px;
-    width: 260px;
+    width: 450px;
+    height: 250px;
     border-radius: 10px;
     border: 1px rgb(139, 16, 16) solid;
 }
