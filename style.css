@@ -1,5 +1,151 @@
 * {
     padding: 0;
     margin: 0;
-    background-color: rgb(55, 184, 184);
+    background-color: rgb(234, 215, 195);
+}
+
+body {
+    padding: 25px;
+}
+
+.flex-colomn {
+    display: flex;
+    gap: 50px
+}
+
+.js-num-a {
+    width: 250px;
+    padding: 10px 5px;
+    background-color: rgb(251, 246, 239);
+    color: rgb(139, 16, 16);
+    border: 1px rgb(139, 16, 16) solid;
+    border-radius: 10px;
+}
+
+.js-num-a:hover {
+    width: 250px;
+    padding: 10px 5px;
+    background-color: rgb(251, 246, 239);
+    color: rgb(139, 16, 16);
+    border: 1px rgb(139, 16, 16) solid;
+    border-radius: 10px;
+    -webkit-box-shadow: 15px 15px 10px 0px rgba(139, 16, 16, 0.2);
+    -moz-box-shadow: 15px 15px 10px 0px rgba(139, 16, 16, 0.2);
+    box-shadow: 15px 15px 10px 0px rgba(139, 16, 16, 0.2);
+}
+
+.js-num-a:focus {
+    width: 250px;
+    padding: 10px 5px;
+    background-color: rgb(251, 246, 239);
+    color: rgb(139, 16, 16);
+    border: 1px rgb(139, 16, 16) solid;
+    border-radius: 10px;
+    -webkit-box-shadow: 15px 15px 10px 0px rgba(139, 16, 16, 0.2);
+    -moz-box-shadow: 15px 15px 10px 0px rgba(139, 16, 16, 0.2);
+    box-shadow: 15px 15px 10px 0px rgba(139, 16, 16, 0.2);
+}
+
+.js-num-b {
+    width: 250px;
+    padding: 10px 5px;
+    background-color: rgb(251, 246, 239);
+    color: rgb(139, 16, 16);
+    border: 1px rgb(139, 16, 16) solid;
+    border-radius: 10px;
+}
+
+.js-num-b:hover {
+    width: 250px;
+    padding: 10px 5px;
+    background-color: rgb(251, 246, 239);
+    color: rgb(139, 16, 16);
+    border: 1px rgb(139, 16, 16) solid;
+    border-radius: 10px;
+    -webkit-box-shadow: 15px 15px 10px 0px rgba(139, 16, 16, 0.2);
+    -moz-box-shadow: 15px 15px 10px 0px rgba(139, 16, 16, 0.2);
+    box-shadow: 15px 15px 10px 0px rgba(139, 16, 16, 0.2);
+}
+
+.js-num-b:focus {
+    width: 250px;
+    padding: 10px 5px;
+    background-color: rgb(251, 246, 239);
+    color: rgb(139, 16, 16);
+    border: 1px rgb(139, 16, 16) solid;
+    border-radius: 10px;
+    -webkit-box-shadow: 15px 15px 10px 0px rgba(139, 16, 16, 0.2);
+    -moz-box-shadow: 15px 15px 10px 0px rgba(139, 16, 16, 0.2);
+    box-shadow: 15px 15px 10px 0px rgba(139, 16, 16, 0.2);
+}
+
+.js-select-operation {
+    width: 250px;
+    padding: 10px 5px;
+    background-color: rgb(251, 246, 239);
+    color: rgb(139, 16, 16);
+    border: 1px rgb(139, 16, 16) solid;
+    border-radius: 10px;
+}
+
+.js-select-operation:hover {
+    width: 250px;
+    padding: 10px 5px;
+    background-color: rgb(251, 246, 239);
+    color: rgb(139, 16, 16);
+    border: 1px rgb(139, 16, 16) solid;
+    border-radius: 10px;
+    -webkit-box-shadow: 15px 15px 10px 0px rgba(139, 16, 16, 0.2);
+    -moz-box-shadow: 15px 15px 10px 0px rgba(139, 16, 16, 0.2);
+    box-shadow: 15px 15px 10px 0px rgba(139, 16, 16, 0.2);
+}
+
+.js-select-operation:focus {
+    width: 250px;
+    padding: 10px 5px;
+    background-color: rgb(251, 246, 239);
+    color: rgb(139, 16, 16);
+    border: 1px rgb(139, 16, 16) solid;
+    border-radius: 10px;
+    -webkit-box-shadow: 15px 15px 10px 0px rgba(139, 16, 16, 0.2);
+    -moz-box-shadow: 15px 15px 10px 0px rgba(139, 16, 16, 0.2);
+    box-shadow: 15px 15px 10px 0px rgba(139, 16, 16, 0.2);
+}
+
+.js-btn-result {
+    width: 250px;
+    padding: 10px 5px;
+    background-color: rgb(251, 246, 239);
+    color: rgb(139, 16, 16);
+    border: 1px rgb(139, 16, 16) solid;
+    border-radius: 10px;
+}
+
+.js-btn-result:hover {
+    width: 250px;
+    padding: 10px 5px;
+    background-color: rgb(251, 246, 239);
+    color: rgb(139, 16, 16);
+    border: 1px rgb(139, 16, 16) solid;
+    border-radius: 10px;
+    -webkit-box-shadow: 15px 15px 10px 0px rgba(139, 16, 16, 0.2);
+    -moz-box-shadow: 15px 15px 10px 0px rgba(139, 16, 16, 0.2);
+    box-shadow: 15px 15px 10px 0px rgba(139, 16, 16, 0.2);
+}
+
+.js-output {
+    margin-top: 50px;
+    width: 250px;
+    padding: 10px 5px;
+    background-color: rgb(251, 246, 239);
+    color: rgb(139, 16, 16);
+    border: 1px rgb(139, 16, 16) solid;
+    border-radius: 10px;
+}
+
+img {
+    margin-top: 25px;
+    width: 260px;
+    border-radius: 10px;
+    border: 1px rgb(139, 16, 16) solid;
 }
